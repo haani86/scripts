@@ -19,7 +19,10 @@
     2022-01-15 - GWB - Added Disk Info
 
     @Haani modifications below:
-    2022-05-06 - converted from gwmi to Get-CimInstance (compatible with PS 7 now), deleted lenovo as its not needed in our environment, convert disk space from bytes to GB and properly converted totalphysicalmemory to GB (two decimal place)
+    2022-05-06 - converted from gwmi to Get-CimInstance (compatible with PS 7 now) 
+                 deleted lenovo as its not needed in our environment
+                 convert disk space from bytes to GB
+                 properly converted totalphysicalmemory to GB (two decimal place)
 #>
 
 param (
